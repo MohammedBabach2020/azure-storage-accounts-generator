@@ -1,0 +1,108 @@
+
+body{
+    
+    overflow: hidden io !important;
+    
+    -webkit-app-region: drag ;
+    background-color:#2f3241;
+   
+ min-height: 100vh !important;
+ width: 100vw !important;
+ 
+}
+
+
+.titleBar{
+    background-color: #2f3241;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 3px;
+}
+
+.primary-input{
+    border: 3px solid #74b1be ;
+    border-radius: 0px !important;
+    color:#74b1be !important;
+    font-size: 16px ;
+    font-weight: bold;
+    background: none;
+}
+
+.primary-input:focus{
+  
+    background: none;
+}
+
+.container{
+    width: 100%  !important;
+    height: 100% !important;
+}
+
+.primary-btn{
+    color: white;
+    border: 3px solid #74b1be ;
+    border-radius: 0px !important;
+    color:#74b1be !important;
+    font-size: 16px ;
+    font-weight: bold;
+    background: none;
+}
+
+.primary-btn:hover{
+
+    color: white !important;
+    background-color: #74b1be !important;
+}
+
+.undragabble{
+
+    -webkit-app-region: none ;
+}
+.dragabble{
+
+    -webkit-app-region: drag ;
+}
+.border-primary{
+
+    border: 3px solid #74b1be  !important;
+}
+td , th{
+color: white !important;
+    background-color:   #2f3241 !important;
+}
+
+.pointer{
+    cursor: pointer !important;
+}
+
+.pointer:hover{
+
+    color: white !important;
+    background-color: #74b1be !important;
+}
+
+#errorMessage{
+    display: none;
+}
+
+.select2-container--default .select2-selection--single {
+    display: block;
+    border: 3px solid #74b1be  !important;
+    height:40px !important;
+    background: none;
+    border-radius: 0px;
+    width: 100% !important;
+  }
+
+  .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height:80px !important;
+  }
+
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #74b1be ; /* Example text color */
+    font-size: 16px ;
+    font-weight: bold;
+  }

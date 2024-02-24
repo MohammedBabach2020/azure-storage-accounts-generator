@@ -1,0 +1,31 @@
+{
+  "name": "azure-storage-accounts-creator",
+  "version": "1.0.0",
+  "description": "desktop application to create azure storage accounts then upload blobs to it",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "MOHAMMED  BABACH",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.2.0",
+    "@electron-forge/maker-deb": "^7.2.0",
+    "@electron-forge/maker-rpm": "^7.2.0",
+    "@electron-forge/maker-squirrel": "^7.2.0",
+    "@electron-forge/maker-zip": "^7.2.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.2.0",
+    "electron": "^28.2.3"
+  },
+  "dependencies": {
+    "@azure/arm-storage": "^18.2.0",
+    "@azure/arm-subscriptions": "^5.1.0",
+    "@azure/identity": "^4.0.1",
+    "@azure/storage-blob": "^12.17.0",
+    "dotenv": "^16.4.4",
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
